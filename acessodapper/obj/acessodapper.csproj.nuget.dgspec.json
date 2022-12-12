@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Junior\\Desktop\\dataaccess\\acessodapper\\acessodapper.csproj": {}
+  },
+  "projects": {
+    "D:\\Junior\\Desktop\\dataaccess\\acessodapper\\acessodapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Junior\\Desktop\\dataaccess\\acessodapper\\acessodapper.csproj",
+        "projectName": "acessodapper",
+        "projectPath": "D:\\Junior\\Desktop\\dataaccess\\acessodapper\\acessodapper.csproj",
+        "packagesPath": "C:\\Users\\8xnec\\.nuget\\packages\\",
+        "outputPath": "D:\\Junior\\Desktop\\dataaccess\\acessodapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\8xnec\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "microsoft.data.sqlclient": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
